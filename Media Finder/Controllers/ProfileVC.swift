@@ -35,8 +35,8 @@ class ProfileVC: UIViewController {
         
 UserDefaults.standard.set(false, forKey: Keys.isLogedIn)
         
-        let signOut = UIStoryboard(name: VCs.main, bundle: nil).instantiateViewController(withIdentifier: VCs.signInVC) as! SignInVC
-        self.present(signOut, animated: true, completion: nil)
+        let signout = UIStoryboard(name: VCs.main, bundle: nil).instantiateViewController(withIdentifier: VCs.signInVC) as! SignInVC
+        self.present(signout, animated: true, completion: nil)
     }
     
 

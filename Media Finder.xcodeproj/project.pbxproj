@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73040B6E2469AFD00032C2AD /* DataOfUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73040B6D2469AFD00032C2AD /* DataOfUser.swift */; };
 		73042E722444B497004B13BD /* MediaListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73042E712444B497004B13BD /* MediaListVC.swift */; };
 		7304BBDD243BDD4000739072 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7304BBDC243BDD4000739072 /* AppDelegate.swift */; };
 		7304BBDF243BDD4000739072 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7304BBDE243BDD4000739072 /* SignUpVC.swift */; };
@@ -15,8 +16,8 @@
 		7304BBE7243BDD4100739072 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7304BBE5243BDD4100739072 /* LaunchScreen.storyboard */; };
 		7304BBF2243BDD4100739072 /* Media_FinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7304BBF1243BDD4100739072 /* Media_FinderTests.swift */; };
 		7304BBFD243BDD4100739072 /* Media_FinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7304BBFC243BDD4100739072 /* Media_FinderUITests.swift */; };
-		7304BC0B243BE88600739072 /* DataOfUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7304BC0A243BE88600739072 /* DataOfUser.swift */; };
 		7307C8AC243CC045005D04C7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7307C8AB243CC045005D04C7 /* Constants.swift */; };
+		730D3D642468DA9F0069DCCD /* SQLite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730D3D632468DA9F0069DCCD /* SQLite.swift */; };
 		7314AC4B243D26B600D2B5B8 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7314AC4A243D26B600D2B5B8 /* SignInVC.swift */; };
 		7314AC4D243D37B700D2B5B8 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7314AC4C243D37B700D2B5B8 /* ProfileVC.swift */; };
 		7317299A243F834E00D655F0 /* APIManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73172999243F834E00D655F0 /* APIManger.swift */; };
@@ -24,7 +25,6 @@
 		731CDFC42440FE76009F79BE /* MediaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 731CDFC22440FE76009F79BE /* MediaCell.xib */; };
 		737127F62442612800479BB3 /* MediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737127F52442612800479BB3 /* MediaType.swift */; };
 		737127F82442662B00479BB3 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737127F72442662B00479BB3 /* Media.swift */; };
-		73EA77DF245BA40A0054C8B6 /* SQLite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EA77DE245BA40A0054C8B6 /* SQLite.swift */; };
 		BE657845F76BFC660BA08567 /* Pods_Media_Finder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B507E79B2C8E389D34425F /* Pods_Media_Finder.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +48,7 @@
 /* Begin PBXFileReference section */
 		288BA5A76184189FA942F703 /* Pods-Media Finder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Media Finder.release.xcconfig"; path = "Target Support Files/Pods-Media Finder/Pods-Media Finder.release.xcconfig"; sourceTree = "<group>"; };
 		29B507E79B2C8E389D34425F /* Pods_Media_Finder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Media_Finder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73040B6D2469AFD00032C2AD /* DataOfUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataOfUser.swift; sourceTree = "<group>"; };
 		73042E712444B497004B13BD /* MediaListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaListVC.swift; sourceTree = "<group>"; };
 		7304BBD9243BDD4000739072 /* Media Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Media Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7304BBDC243BDD4000739072 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,8 +63,8 @@
 		7304BBF8243BDD4100739072 /* Media FinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Media FinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7304BBFC243BDD4100739072 /* Media_FinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media_FinderUITests.swift; sourceTree = "<group>"; };
 		7304BBFE243BDD4100739072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7304BC0A243BE88600739072 /* DataOfUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataOfUser.swift; path = ../../Barca/DataOfUser.swift; sourceTree = "<group>"; };
 		7307C8AB243CC045005D04C7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		730D3D632468DA9F0069DCCD /* SQLite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLite.swift; sourceTree = "<group>"; };
 		7314AC4A243D26B600D2B5B8 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		7314AC4C243D37B700D2B5B8 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		73172999243F834E00D655F0 /* APIManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManger.swift; sourceTree = "<group>"; };
@@ -71,7 +72,6 @@
 		731CDFC22440FE76009F79BE /* MediaCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MediaCell.xib; sourceTree = "<group>"; };
 		737127F52442612800479BB3 /* MediaType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaType.swift; sourceTree = "<group>"; };
 		737127F72442662B00479BB3 /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
-		73EA77DE245BA40A0054C8B6 /* SQLite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLite.swift; sourceTree = "<group>"; };
 		8684817A00DA87B206095584 /* Pods-Media Finder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Media Finder.debug.xcconfig"; path = "Target Support Files/Pods-Media Finder/Pods-Media Finder.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,10 +151,12 @@
 		7304BBDB243BDD4000739072 /* Media Finder */ = {
 			isa = PBXGroup;
 			children = (
+				73040B6D2469AFD00032C2AD /* DataOfUser.swift */,
 				7304BBDC243BDD4000739072 /* AppDelegate.swift */,
 				73172998243F832D00D655F0 /* Networking */,
+				73042E6E2444B41C004B13BD /* Models */,
 				731CDFBF2440FC01009F79BE /* Controllers */,
-				7304BC0A243BE88600739072 /* DataOfUser.swift */,
+				730D3D622468DA590069DCCD /* SQL */,
 				731A4E0A246737F100F53BEE /* StoryBoards */,
 				731CDFC02440FE49009F79BE /* MediaCell */,
 				7307C8AA243CC019005D04C7 /* Utilities */,
@@ -191,21 +193,20 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		730D3D622468DA590069DCCD /* SQL */ = {
+			isa = PBXGroup;
+			children = (
+				730D3D632468DA9F0069DCCD /* SQLite.swift */,
+			);
+			path = SQL;
+			sourceTree = "<group>";
+		};
 		73172998243F832D00D655F0 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
 				73172999243F834E00D655F0 /* APIManger.swift */,
-				73042E6E2444B41C004B13BD /* Models */,
 			);
 			path = Networking;
-			sourceTree = "<group>";
-		};
-		731A4E09246737C600F53BEE /* SQLite */ = {
-			isa = PBXGroup;
-			children = (
-				73EA77DE245BA40A0054C8B6 /* SQLite.swift */,
-			);
-			path = SQLite;
 			sourceTree = "<group>";
 		};
 		731A4E0A246737F100F53BEE /* StoryBoards */ = {
@@ -224,7 +225,6 @@
 				7314AC4C243D37B700D2B5B8 /* ProfileVC.swift */,
 				737127F52442612800479BB3 /* MediaType.swift */,
 				73042E712444B497004B13BD /* MediaListVC.swift */,
-				731A4E09246737C600F53BEE /* SQLite */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -415,14 +415,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				737127F62442612800479BB3 /* MediaType.swift in Sources */,
-				73EA77DF245BA40A0054C8B6 /* SQLite.swift in Sources */,
 				7314AC4D243D37B700D2B5B8 /* ProfileVC.swift in Sources */,
 				7304BBDF243BDD4000739072 /* SignUpVC.swift in Sources */,
 				731CDFC32440FE76009F79BE /* MediaCell.swift in Sources */,
+				730D3D642468DA9F0069DCCD /* SQLite.swift in Sources */,
+				73040B6E2469AFD00032C2AD /* DataOfUser.swift in Sources */,
 				737127F82442662B00479BB3 /* Media.swift in Sources */,
 				73042E722444B497004B13BD /* MediaListVC.swift in Sources */,
 				7304BBDD243BDD4000739072 /* AppDelegate.swift in Sources */,
-				7304BC0B243BE88600739072 /* DataOfUser.swift in Sources */,
 				7317299A243F834E00D655F0 /* APIManger.swift in Sources */,
 				7307C8AC243CC045005D04C7 /* Constants.swift in Sources */,
 				7314AC4B243D26B600D2B5B8 /* SignInVC.swift in Sources */,

@@ -99,7 +99,6 @@ extension MediaListVC: UISearchBarDelegate{
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         let keyWord = searchBar.text ?? ""
         dataBase.share.insertCaheData(text: keyWord)
-        let x = dataBase.share.getLastSearch()
-        getData(mediaType: selectMedia.rawValue, keyWord: x ?? "")
+        getData(mediaType: selectMedia.rawValue, keyWord: dataBase.share.getLastSearch() ?? "")
     }
 }

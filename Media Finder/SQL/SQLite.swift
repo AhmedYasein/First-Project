@@ -81,7 +81,7 @@ class dataBase: NSObject {
     }
     
     func getLastSearch() -> String?{
-        var text: String = ""
+        var text = ""
         
             do {
                 let users = try self.database.prepare(self.casheDataTable)
